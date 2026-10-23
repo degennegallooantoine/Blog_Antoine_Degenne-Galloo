@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Antoine Degenne-Galloo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; }
+        section { scroll-margin-top: 85px; }
+    </style>
+</head>
+<body class="bg-slate-100 text-gray-800 antialiased selection:bg-blue-500 selection:text-white">
+
+    <nav class="fixed top-0 w-full bg-slate-900/90 backdrop-blur-md text-white z-50 shadow-lg border-b border-slate-700/50">
+        <div class="max-w-6xl mx-auto px-4 py-3.5 flex justify-center gap-4 md:gap-7 flex-wrap font-medium text-xs md:text-sm">
+            <a href="#qui-suis-je" class="hover:text-blue-400 transition-colors py-1">Profil</a>
+            <a href="#parcours" class="hover:text-blue-400 transition-colors py-1">Parcours</a>
+            <a href="#projets" class="hover:text-blue-400 transition-colors py-1">Projets</a>
+            <a href="#professionnel" class="hover:text-blue-400 transition-colors py-1">Expériences</a>
+            <a href="#competences" class="hover:text-blue-400 transition-colors py-1">Compétences</a>
+            <a href="#interets" class="hover:text-blue-400 transition-colors py-1">Intérêts</a>
+            <a href="#cv" class="hover:text-blue-400 transition-colors py-1">CV</a>
+            <a href="#contact" class="hover:text-blue-400 transition-colors py-1">Contact</a>
+        </div>
+    </nav>
+
+    <header class="bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 text-white pt-36 pb-16 px-4">
+        <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-6 md:gap-10">
+            <div class="shrink-0">
+                <img src="photo_profil.jpeg" 
+                     alt="Antoine Degenne-Galloo" 
+                     class="w-32 h-32 sm:w-36 sm:h-36 md:w-44 md:h-44 rounded-full object-cover shadow-2xl border-4 border-slate-700 ring-4 ring-blue-500/30 bg-slate-800" 
+                     onerror="this.onerror=null; this.src='https://placehold.co/150x150/1e293b/ffffff?text=Votre+Photo';">
+            </div>
+            <div class="text-center md:text-left flex-1">
+                <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-3 text-white">
+                    Antoine Degenne-Galloo
+                </h1>
+                <p class="text-base sm:text-lg md:text-xl text-slate-300 font-light leading-relaxed max-w-2xl">
+                    Conception mécanique, modélisation numérique et passion des technologies industrielles.
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-4 sm:px-6 py-12 space-y-16">
+        
+        <section id="qui-suis-je" class="bg-white rounded-2xl shadow-sm border border-slate-200/80 p-6 md:p-10">
+            <div class="flex items-center gap-3 border-b-2 border-blue-500 pb-3 mb-6">
+                <span class="text-2xl">👤</span>
+                <h2 class="text-2xl md:text-3xl font-bold text-slate-900">Profil &amp; Objectifs</h2>
+            </div>
+            <p class="text-base md:text-lg text-slate-700 leading-relaxed mb-8">
+                Formé en Génie Mécanique et Productique, passionné par de multiples domaines de l'industrie en général, par le sport automobile, mais également par des secteurs tels que le nautisme et la manutention, j'ai pour objectif de créer ma carrière professionnelle au cœur de ces environnements techniques et exigeants.
+            </p>
+            <div class="mt-4">
+                <h3 class="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-3">Vidéo de présentation</h3>
+                <div class="rounded-xl overflow-hidden shadow-lg bg-black aspect-video max-w-3xl mx-auto border border-slate-200">
+                    <iframe class="w-full h-full" src="https://www.youtube.com/embed/kvaLri1D8TQ" title="Vidéo de présentation - Antoine Degenne-Galloo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="parcours" class="bg-white rounded-2xl shadow-sm border border-slate-200/80 p-6 md:p-10">
+            <div class="flex items-center gap-3 border-b-2 border-blue-500 pb-3 mb-8">
+                <span class="text-2xl">🎓</span>
+                <h2 class="text-2xl md:text-3xl font-bold text-slate-900">Parcours Académique</h2>
+            </div>
+
+            <div class="space-y-8">
+                <div class="relative pl-6 md:pl-8 border-l-4 border-blue-600 bg-slate-50/70 p-6 rounded-r-xl border-y border-r border-slate-200">
+                    <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+                        <h3 class="text-xl md:text-2xl font-bold text-slate-900">
+                            BUT Génie Mécanique et Productique (GMP)
+                        </h3>
+                        <span class="text-xs font-semibold px-3 py-1 bg-blue-100 text-blue-800 rounded-full">
+                            IUT d'Orléans
+                        </span>
+                    </div>
+                    <p class="text-blue-600 font-semibold text-sm md:text-base mb-4">
+                        Spécialisation : Simulation numérique et réalité virtuelle
+                    </p>
+                    <p class="text-slate-700 mb-4 leading-relaxed">
+                        Formation d'ingénierie appliquée couvrant l'ensemble du cycle de vie d'un produit mécanique, de la conception préliminaire jusqu'à la fabrication industrielle et la validation numérique :
+                    </p>
+                    <ul class="space-y-2 text-slate-700 text-sm md:text-base">
+                        <li class="flex items-start gap-2">
+                            <span class="text-blue-500 font-bold">▪</span>
+                            <span><strong>Conception Assistée par Ordinateur (CAO 3D) :</strong> Modélisation paramétrique avancée, gestion d'assemblages complexes, génération d'éclatés et mises en plan normalisées avec tolérancement ISO.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-blue-500 font-bold">▪</span>
+                            <span><strong>Simulation Numérique &amp; Réalité Virtuelle :</strong> Calcul de structures par éléments finis (FEA), étude des contraintes mécaniques, simulations cinématiques et intégration en environnements immersifs.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-blue-500 font-bold">▪</span>
+                            <span><strong>Mécanique &amp; Résistance des Matériaux :</strong> Dimensionnement analytique en statique, cinématique, dynamique et calculs de résistance (traction, compression, flexion, torsion, flambement).</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-blue-500 font-bold">▪</span>
+                            <span><strong>Méthodes de Fabrication &amp; Métrologie :</strong> Procédés d'usinage conventionnel et à commande numérique (CNC), élaboration de gammes d'usinage et contrôle qualité dimensionnel rigoureux.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="relative pl-6 md:pl-8 border-l-4 border-slate-600 bg-slate-50/70 p-6 rounded-r-xl border-y border-r border-slate-200">
+                    <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+                        <h3 class="text-xl md:text-2xl font-bold text-slate-900">
+                            Baccalauréat Général
+                        </h3>
+                        <span class="text-xs font-semibold px-3 py-1 bg-slate-200 text-slate-800 rounded-full">
+                            Lycée Durzy — Villemandeur
+                        </span>
+                    </div>
+                    <p class="text-slate-600 font-semibold text-sm md:text-base mb-4">
+                        Spécialités Mathématiques &amp; Sciences de l'Ingénieur (SI) — Section Européenne Anglais
+                    </p>
+                    <p class="text-slate-700 mb-4 leading-relaxed">
+                        Cursus scientifique orienté vers les sciences appliquées, l'approche système et la maîtrise linguistique :
+                    </p>
+                    <ul class="space-y-2 text-slate-700 text-sm md:text-base">
+                        <li class="flex items-start gap-2">
+                            <span class="text-slate-500 font-bold">▪</span>
+                            <span><strong>Sciences de l'Ingénieur (SI) :</strong> Analyse fonctionnelle, modélisation multiphysique de systèmes automatisés, électronique de commande et cinématique.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-slate-500 font-bold">▪</span>
+                            <span><strong>Section Européenne Anglais :</strong> Pratique soutenue de l'anglais technique et scientifique appliquée à l'ingénierie, permettant l'obtention d'un niveau C1 (autonome / avancé).</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-slate-500 font-bold">▪</span>
+                            <span><strong>Projet Technique Collaboratif :</strong> Développement d'une invention en équipe sur plusieurs mois, récompensée par une qualification en finale académique.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projets" class="bg-white rounded-2xl shadow-sm border border-slate-200/80 p-6 md:p-10">
+            <div class="flex flex-wrap items-center justify-between gap-3 border-b-2 border-blue-500 pb-3 mb-8">
+                <div class="flex items-center gap-3">
+                    <span class="text-2xl">⚙️</span>
+                    <h2 class="text-2xl md:text-3xl font-bold text-slate-900">Projets &amp; Réalisations</h2>
+                </div>
+                <span class="text-sm font-medium text-blue-600 bg-blue-50 px-3 py-1.5 rounded-full border border-blue-100 animate-pulse">
+                    👆 Cliquez sur une carte pour les détails
+                </span>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <div onclick="openProjectModal(this)" class="is-split-card bg-slate-50 border border-slate-200 rounded-xl p-5 hover:border-blue-400 hover:shadow-md cursor-pointer transition-all transform hover:-translate-y-1 flex flex-col h-full group">
+                    <div class="flex items-center justify-between gap-2 mb-4">
+                        <span class="text-xs font-semibold px-2.5 py-1 bg-blue-100 text-blue-900 rounded-md shrink-0">
+                            Conception &amp; Usinage
+                        </span>
+                        <span class="text-xs text-slate-500 font-medium text-right">IUT GMP</span>
+                    </div>
+
+                    <div class="rounded-lg overflow-hidden mb-4 border border-slate-200/60 aspect-video relative">
+                        <img src="balancoire_accueil.jpeg" onerror="this.onerror=null; this.src='https://placehold.co/600x400/dbeafe/1e3a8a?text=Photo+Balancoire';" alt="Balançoire" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                    </div>
+
+                    <h3 class="text-lg font-bold text-slate-900 group-hover:text-blue-600 transition-colors mt-auto">Balançoire "Œuf Surprise"</h3>
+                    
+                    <div class="hidden project-details">
+                        <div class="modal-split-layout grid md:grid-cols-2 gap-8 mb-6">
+                            <div class="space-y-4 text-sm">
+                                <div>
+                                    <h4 class="font-bold text-slate-800 text-base mb-1">1. Contexte</h4>
+                                    <p class="text-slate-700 leading-relaxed">Projet de réalisation pratique mené au sein de l'atelier de fabrication mécanique de l'IUT dans le cadre du BUT GMP.</p>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-slate-800 text-base mb-1">2. Objectifs</h4>
+                                    <p class="text-slate-700 leading-relaxed">Créer un ensemble mécanique complet et fonctionnel, la balançoire.</p>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-slate-800 text-base mb-1">3. Cahier des charges</h4>
+                                    <ul class="list-disc list-inside text-slate-700 leading-relaxed space-y-1">
+                                        <li>Respecter rigoureusement les deadlines et rendus demandés par nos encadrants.</li>
+                                        <li>Utiliser un maximum de procédé de fabrication différents.</li>
+                                        <li>Le systeme se devait d'etre démontable et rangeable dans "L'Oeuf Surprise".</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-slate-800 text-base mb-1">4. Bilan et difficultés rencontrées</h4>
+                                    <p class="text-slate-700 leading-relaxed">La difficulté majeure a résidé dans la précision des réglages machines et les ajustements finaux pour assurer la fluidité du mécanisme.</p>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-slate-800 text-base mb-1">5. Analyse et réflexion</h4>
+                                    <p class="text-slate-700 leading-relaxed">J'ai pu mesurer l'importance de la rigueur et de la métrologie dans le processus de fabrication. Cela donne un vrai sens à la conception CAO.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="modal-gallery flex flex-col">
+                                <div class="bg-slate-50 border border-slate-200 rounded-xl p-4">
+                                    <h4 class="font-bold text-slate-800 text-sm mb-3 border-b border-slate-200 pb-2">Résumé en images du procédé</h4>
+                                    
+                                    <div class="mb-1">
+                                        <img src="balancoire_cao.jpeg" onerror="this.onerror=null; this.src='https://placehold.co/800x300/e2e8f0/475569?text=Modèle+CAO';" alt="Modèle CAO" class="w-full h-24 md:h-28 object-cover rounded-md shadow-sm border border-slate-200">
+                                    </div>
+                                    <p class="text-xs text-center text-slate-500 mb-4 font-medium">1. Modélisation CAO</p>
+                                    
+                                    <div class="gallery-row grid grid-cols-2 gap-2 mb-1">
+                                        <img src="balancoire_fraiseuse.jpeg" onerror="this.onerror=null; this.src='https://placehold.co/400x300/e2e8f0/475569?text=Fraiseuse';" alt="Usinage Fraiseuse" class="w-full h-24 md:h-28 object-cover rounded-md shadow-sm border border-slate-200">
+                                        <img src="balancoire_perceuse.jpeg" onerror="this.onerror=null; this.src='https://placehold.co/400x300/e2e8f0/475569?text=Perceuse';" alt="Perceuse à colonne" class="w-full h-24 md:h-28 object-cover rounded-md shadow-sm border border-slate-200">
+                                    </div>
+                                    <p class="text-xs text-center text-slate-500 mb-4 font-medium">2. Usinage &amp; Perçage</p>
+                                    
+                                    <div class="mb-1">
+                                        <img src="balancoire_finale.jpeg" onerror="this.onerror=null; this.src='https://placehold.co/800x300/dbeafe/1e3a8a?text=Balancoire+Finie';" alt="Balançoire finie" class="w-full h-28 md:h-32 object-cover rounded-md shadow-sm border border-slate-200">
+                                    </div>
+                                    <p class="text-xs text-center text-slate-500 font-medium">3. Pièce finale assemblée</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-2 text-sm text-slate-600">
+                            <span class="bg-slate-100 px-3 py-1.5 rounded-lg border border-slate-200 font-medium">Tournage</span>
+                            <span class="bg-slate-100 px-3 py-1.5 rounded-lg border border-slate-200 font-medium">Fraisage</span>
+                            <span class="bg-slate-100 px-3 py-1.5 rounded-lg border border-slate-200 font-medium">Métrologie</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div onclick="openProjectModal(this)" class="is-split-card bg-slate-50 border border-slate-200 rounded-xl p-5 hover:border-blue-400 hover:shadow-md cursor-pointer transition-all transform hover:-translate-y-1 flex flex-col h-full group">
+                    <div class="flex items-center justify-between gap-2 mb-4">
+                        <span class="text-xs font-semibold px-2.5 py-1 bg-orange-100 text-orange-900 rounded-md shrink-0">
+                            Méthodes &amp; Fonderie
+                        </span>
+                        <span class="text-xs text-slate-500 font-medium text-right">IUT d'Orléans</span>
+                    </div>
+
+                    <div class="dual-cover grid grid-cols-2 rounded-lg overflow-hidden mb-4 border border-slate-200/60 aspect-video relative">
+                        <img src="fonderie_piece_1.jpeg" onerror="this.onerror=null; this.src='https://placehold.co/300x400/fdba74/c2410c?text=Piece+1';" alt="Pièce 1" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                        <img src="fonderie_piece_2.jpeg" onerror="this.onerror=null; this.src='https://placehold.co/300x400/fdba74/c2410c?text=Piece+2';" alt="Pièce 2" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                    </div>
+
+                    <h3 class="text-lg font-bold text-slate-900 group-hover:text-blue-600 transition-colors mt-auto">
+                        Industrialisation d'une pièce en fonderie avec impression 3D
+                    </h3>
+                    
+                    <div class="hidden project-details">
+                        <div class="modal-split-layout grid md:grid-cols-2 gap-8 mb-6">
+                            <div class="space-y-4 text-sm">
+                                <div>
+                                    <h4 class="font-bold text-slate-800 text-base mb-1">1. Contexte</h4>
+                                    <p class="text-slate-700 leading-relaxed">Ce projet illustre l'ensemble du processus d'industrialisation d'une pièce mécanique. L'enjeu était de partir d'un besoin pour arriver à une pièce finie et fonctionnelle, en combinant des procédés de fabrication modernes (fabrication additive) et traditionnels (fonderie, usinage).</p>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-slate-800 text-base mb-1">2. Objectifs</h4>
+                                    <p class="text-slate-700 leading-relaxed">Maîtriser la chaîne numérique de bout en bout. Il s'agissait de concevoir les outillages de fonderie, de réaliser le brut par coulée, de préparer la gamme d'usinage sur TopSolid et de fabriquer la pièce finale tout en concevant un montage d'usinage adapté.</p>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-slate-800 text-base mb-1">3. Cahier des charges</h4>
+                                    <ul class="list-disc list-inside text-slate-700 leading-relaxed space-y-1">
+                                        <li>Modélisation CAO des demi-moules, demi-modèles et boîtes à noyaux.</li>
+                                        <li>Impression 3D des demi-modèles et des boîtes à noyaux.</li>
+                                        <li>Réalisation de la phase de fonderie pour obtenir la pièce brute.</li>
+                                        <li>Conception CAO/FAO sur TopSolid incluant la réflexion sur le montage d'usinage.</li>
+                                        <li>Usinage final du brut pour obtenir la pièce fonctionnelle respectant les tolérances.</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-slate-800 text-base mb-1">4. Bilan et difficultés rencontrées</h4>
+                                    <p class="text-slate-700 leading-relaxed">Nous avons réussi à obtenir notre pièce fonctionnelle. Ce travail a été particulièrement complexe de par la diversité des compétences requises (CAO, impression 3D, fonderie, FAO, usinage). Les principaux obstacles rencontrés se sont situés au niveau de la maîtrise des différents logiciels et de la bascule entre eux.</p>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-slate-800 text-base mb-1">5. Analyse et réflexion</h4>
+                                    <p class="text-slate-700 leading-relaxed">Ce projet transversal m'a permis de comprendre l'importance d'anticiper la phase finale (le maintien et l'usinage) dès la conception initiale des outillages de fonderie. Les difficultés logicielles rencontrées ont été très formatrices pour développer ma capacité d'adaptation technique.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="modal-gallery flex flex-col">
+                                <div class="bg-slate-50 border border-slate-200 rounded-xl p-4">
+                                    <h4 class="font-bold text-slate-800 text-sm mb-3 border-b border-slate-200 pb-2">Résumé en images du procédé</h4>
+                                    
+                                    <div class="gallery-row grid grid-cols-2 gap-2 mb-1">
+                                        <img src="fonderie_noyau.jpeg" onerror="this.onerror=null; this.src='https://placehold.co/400x300/e2e8f0/475569?text=Noyau';" alt="Noyau" class="w-full h-24 md:h-28 object-cover rounded-md shadow-sm border border-slate-200">
+                                        <img src="fonderie_modele.jpeg" onerror="this.onerror=null; this.src='https://placehold.co/400x300/e2e8f0/475569?text=Modele';" alt="Modèle" class="w-full h-24 md:h-28 object-cover rounded-md shadow-sm border border-slate-200">
+                                    </div>
+                                    <p class="text-xs text-center text-slate-500 mb-4 font-medium">1. Impression 3D (Noyau &amp; Modèle)</p>
+                                    
+                                    <div class="mb-1">
+                                        <img src="fonderie_sable.jpeg" onerror="this.onerror=null; this.src='https://placehold.co/800x300/e2e8f0/475569?text=Moules+en+sable';" alt="Moules en sable" class="w-full h-28 md:h-32 object-cover rounded-md shadow-sm border border-slate-200">
+                                    </div>
+                                    <p class="text-xs text-center text-slate-500 mb-4 font-medium">2. Création des moules en sable</p>
+                                    
+                                    <div class="gallery-row grid grid-cols-2 gap-2 mb-1">
+                                        <img src="fonderie_piece_1.jpeg" onerror="this.onerror=null; this.src='https://placehold.co/400x300/fdba74/c2410c?text=Piece+1';" alt="Pièce finale 1" class="w-full h-24 md:h-28 object-cover rounded-md shadow-sm border border-slate-200">
+                                        <img src="fonderie_piece_2.jpeg" onerror="this.onerror=null; this.src='https://placehold.co/400x300/fdba74/c2410c?text=Piece+2';" alt="Pièce finale 2" class="w-full h-24 md:h-28 object-cover rounded-md shadow-sm border border-slate-200">
+                                    </div>
+                                    <p class="text-xs text-center text-slate-500 font-medium">3. Pièce brute et usinée</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-2 text-sm text-slate-600">
+                            <span class="bg-slate-100 px-3 py-1.5 rounded-lg border border-slate-200 font-medium">TopSolid (CAO/FAO)</span>
+                            <span class="bg-slate-100 px-3 py-1.5 rounded-lg border border-slate-200 font-medium">Impression 3D &amp; Fonderie</span>
+                            <span class="bg-slate-100 px-3 py-1.5 rounded-lg border border-slate-200 font-medium">Usinage</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div onclick="openProjectModal(this)" class="bg-slate-50 border border-slate-200 rounded-xl p-5 hover:border-blue-400 hover:shadow-md cursor-pointer transition-all transform hover:-translate-y-1 flex flex-col h-full group">
+                    <div class="flex items-center justify-between gap-2 mb-4">
+                        <span class="text-xs font-semibold px-2.5 py-1 bg-amber-100 text-amber-900 rounded-md shrink-0">
+                            Innovation &amp; Équipe
+                        </span>
+                        <span class="text-xs text-slate-500 font-medium text-right">Lycée / OTIS Gien</span>
+                    </div>
+                    
+                    <div class="rounded-lg overflow-hidden mb-4 border border-slate-200/60 aspect-video relative">
+                        <img src="olympiades_accueil.jpeg" data-modal-img="olympiades_interieur.jpeg" data-modal-fallback="this.onerror=null; this.src='https://placehold.co/600x400/fef3c7/78350f?text=Photo+Olympiades';" onerror="this.onerror=null; this.src='https://placehold.co/600x400/fef3c7/78350f?text=Photo+Olympiades';" alt="Olympiades" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                    </div>
+                    
+                    <h3 class="text-lg font-bold text-slate-900 group-hover:text-blue-600 transition-colors mt-auto">Olympiades de Sciences de l'Ingénieur</h3>
+
+                    <div class="hidden project-details">
+                        <div class="space-y-4 mb-6 text-sm">
+                            <div>
+                                <h4 class="font-bold text-slate-800 text-base mb-1">1. Contexte</h4>
+                                <p class="text-slate-700 leading-relaxed">Participation aux Olympiades de Sciences de l'Ingénieur en équipe, avec une soutenance finale devant un jury d'experts chez OTIS.</p>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-800 text-base mb-1">2. Objectifs</h4>
+                                <p class="text-slate-700 leading-relaxed">Concevoir de zéro et mettre au point une invention technique innovante (prototype fonctionnel) sur plusieurs mois.</p>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-800 text-base mb-1">3. Cahier des charges</h4>
+                                <p class="text-slate-700 leading-relaxed">Respecter des contraintes strictes de budget, de délais et de faisabilité technique, tout en proposant un produit répondant à un besoin précis.</p>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-800 text-base mb-1">4. Bilan et difficultés rencontrées</h4>
+                                <p class="text-slate-700 leading-relaxed">Le principal défi a été la coordination de l'équipe et la résolution des imprévus techniques lors de l'assemblage physique du prototype.</p>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-800 text-base mb-1">5. Analyse et réflexion</h4>
+                                <p class="text-slate-700 leading-relaxed">Cette expérience très formatrice a confirmé mon attrait pour la gestion de projet, l'innovation et le travail collaboratif en ingénierie.</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-2 text-sm text-slate-600">
+                            <span class="bg-slate-100 px-3 py-1.5 rounded-lg border border-slate-200 font-medium">Travail d'équipe</span>
+                            <span class="bg-slate-100 px-3 py-1.5 rounded-lg border border-slate-200 font-medium">Prototypage</span>
+                            <span class="bg-slate-100 px-3 py-1.5 rounded-lg border border-slate-200 font-medium">Soutenance</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="professionnel" class="bg-white rounded-2xl shadow-sm border border-slate-200/80 p-6 md:p-10">
+            <div class="flex items-center gap-3 border-b-2 border-blue-500 pb-3 mb-8">
+                <span class="text-2xl">🏭</span>
+                <h2 class="text-2xl md:text-3xl font-bold text-slate-900">Expériences Professionnelles</h2>
+            </div>
+            <div class="space-y-8">
+                <div class="border-l-4 border-blue-500 pl-4 md:pl-6">
+                    <div class="flex flex-wrap items-center justify-between gap-2 mb-1">
+                        <h3 class="text-lg md:text-xl font-bold text-slate-900">
+                            Rédacteur Technique / Intégration Bureau d'Études
+                        </h3>
+                        <span class="text-xs font-semibold text-blue-700 bg-blue-50 px-3 py-1 rounded-full border border-blue-200">
+                            Stage de 11 semaines
+                        </span>
+                    </div>
+                    <p class="text-blue-600 font-semibold mb-3">Ligier Automotive — Amilly</p>
+                    <ul class="space-y-2 text-slate-700 text-sm md:text-base list-disc list-inside">
+                        <li>Création intégrale des documents d'utilisation d'un véhicule de compétition à destination de la clientèle.</li>
+                        <li>Participation active au bureau d'études : conception, modélisation de pièces, assemblages 3D, plans et éclatés techniques.</li>
+                        <li>Contribution à l'évolution du système d'archivage technique de l'entreprise.</li>
+                        <li>Immersion complète de la chaîne automobile : du bureau d'études jusqu'aux tests sur piste, en passant par le travail en atelier.</li>
+                    </ul>
+                </div>
+
+                <div class="border-l-4 border-slate-400 pl-4 md:pl-6">
+                    <div class="flex flex-wrap items-center justify-between gap-2 mb-1">
+                        <h3 class="text-lg md:text-xl font-bold text-slate-900">
+                            Immersion Chantier Naval de Plaisance
+                        </h3>
+                        <span class="text-xs font-semibold text-slate-600 bg-slate-100 px-3 py-1 rounded-full border border-slate-200">
+                            Stage
+                        </span>
+                    </div>
+                    <p class="text-slate-600 font-semibold mb-3">Comptoir Nautique — Marzan</p>
+                    <ul class="space-y-2 text-slate-700 text-sm md:text-base list-disc list-inside">
+                        <li>Travail en équipe sur les opérations de manutention : grutage et hivernage des voiliers et bateaux à moteur.</li>
+                        <li>Maintenance technique des coques et carénage.</li>
+                        <li>Participation à la gestion du magasin d'accastillage.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="competences" class="bg-white rounded-2xl shadow-sm border border-slate-200/80 p-6 md:p-10">
+            <div class="flex items-center gap-3 border-b-2 border-blue-500 pb-3 mb-8">
+                <span class="text-2xl">🛠️</span>
+                <h2 class="text-2xl md:text-3xl font-bold text-slate-900">Compétences, Langues &amp; Qualités</h2>
+            </div>
+            
+            <div class="space-y-8">
+                <div>
+                    <h3 class="font-bold text-base md:text-lg text-slate-800 mb-4 flex items-center gap-2">
+                        <span>📐</span> Compétences Techniques
+                    </h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-blue-50 text-blue-800 border border-blue-200 px-3 py-1.5 rounded-lg text-sm font-medium">Creo 5</span>
+                        <span class="bg-blue-50 text-blue-800 border border-blue-200 px-3 py-1.5 rounded-lg text-sm font-medium">SolidWorks</span>
+                        <span class="bg-blue-50 text-blue-800 border border-blue-200 px-3 py-1.5 rounded-lg text-sm font-medium">RDM Ossature</span>
+                        <span class="bg-blue-50 text-blue-800 border border-blue-200 px-3 py-1.5 rounded-lg text-sm font-medium">Matlab / Simulink</span>
+                        <span class="bg-blue-50 text-blue-800 border border-blue-200 px-3 py-1.5 rounded-lg text-sm font-medium">Python</span>
+                        <span class="bg-blue-50 text-blue-800 border border-blue-200 px-3 py-1.5 rounded-lg text-sm font-medium">Métrologie dimensionnelle</span>
+                        <span class="bg-blue-50 text-blue-800 border border-blue-200 px-3 py-1.5 rounded-lg text-sm font-medium">Lecture de plans ISO</span>
+                        <span class="bg-blue-50 text-blue-800 border border-blue-200 px-3 py-1.5 rounded-lg text-sm font-medium">Suite Bureautique (Excel, Word)</span>
+                    </div>
+                </div>
+
+                <div class="space-y-8">
+                    <div>
+                        <h3 class="font-bold text-base md:text-lg text-slate-800 mb-4 flex items-center gap-2">
+                            <span>🌍</span> Langues
+                        </h3>
+                        <div class="space-y-3">
+                            <div class="p-3 bg-emerald-50 border border-emerald-200 rounded-lg flex items-center justify-between">
+                                <span class="font-semibold text-emerald-900 text-sm">Anglais</span>
+                                <span class="text-xs bg-emerald-200 text-emerald-900 font-bold px-2.5 py-1 rounded">Niveau C1 (Autonome / Avancé)</span>
+                            </div>
+                            <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg flex items-center justify-between">
+                                <span class="font-semibold text-slate-800 text-sm">Allemand</span>
+                                <span class="text-xs bg-slate-200 text-slate-800 font-bold px-2.5 py-1 rounded">Niveau B1 (Sprachdiplom)</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h3 class="font-bold text-base md:text-lg text-slate-800 mb-4 flex items-center gap-2">
+                            <span>🤝</span> Qualités
+                        </h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-purple-50 text-purple-800 border border-purple-200 px-4 py-2 rounded-lg text-sm font-medium shadow-sm">Créativité</span>
+                            <span class="bg-purple-50 text-purple-800 border border-purple-200 px-4 py-2 rounded-lg text-sm font-medium shadow-sm">Rigueur</span>
+                            <span class="bg-purple-50 text-purple-800 border border-purple-200 px-4 py-2 rounded-lg text-sm font-medium shadow-sm">Curiosité</span>
+                            <span class="bg-purple-50 text-purple-800 border border-purple-200 px-4 py-2 rounded-lg text-sm font-medium shadow-sm">Travail en équipe</span>
+                            <span class="bg-purple-50 text-purple-800 border border-purple-200 px-4 py-2 rounded-lg text-sm font-medium shadow-sm">Persévérance</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="interets" class="bg-white rounded-2xl shadow-sm border border-slate-200/80 p-6 md:p-10">
+            <div class="flex items-center gap-3 border-b-2 border-blue-500 pb-3 mb-8">
+                <span class="text-2xl">🎯</span>
+                <h2 class="text-2xl md:text-3xl font-bold text-slate-900">Centres d'Intérêts</h2>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="p-6 bg-slate-50 border border-slate-200 rounded-xl hover:shadow-md transition-shadow relative overflow-hidden group">
+                    <div class="absolute -top-4 -right-4 p-4 opacity-5 text-8xl group-hover:scale-110 transition-transform duration-500">🏎️</div>
+                    <div class="flex items-center gap-3 mb-3">
+                        <span class="text-2xl">🏎️</span>
+                        <h3 class="text-lg font-bold text-slate-900">Automobile de compétition &amp; Sport mécanique</h3>
+                    </div>
+                    <p class="text-slate-700 text-sm leading-relaxed mb-4 relative z-10">
+                        Passion pour les hautes technologies, la mécanique de précision et les stratégies de course au plus haut niveau.
+                    </p>
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-4 rounded-r-lg relative z-10">
+                        <strong class="text-blue-800 text-xs uppercase tracking-wider block mb-1">Apport professionnel</strong>
+                        <p class="text-blue-900 text-sm">
+                            Cultive la <strong>rigueur</strong>, le <strong>sens de l'optimisation</strong> et la <strong>gestion de la pression</strong>. L'exigence du sport automobile implique une recherche constante de performance, d'innovation technologique et un fort esprit de cohésion.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="p-6 bg-slate-50 border border-slate-200 rounded-xl hover:shadow-md transition-shadow relative overflow-hidden group">
+                    <div class="absolute -top-4 -right-4 p-4 opacity-5 text-8xl group-hover:scale-110 transition-transform duration-500">🎬</div>
+                    <div class="flex items-center gap-3 mb-3">
+                        <span class="text-2xl">🎬</span>
+                        <h3 class="text-lg font-bold text-slate-900">Cinéma</h3>
+                    </div>
+                    <p class="text-slate-700 text-sm leading-relaxed mb-4 relative z-10">
+                        Intérêt prononcé pour le 7ème art, l'analyse filmique, la réalisation et la narration visuelle.
+                    </p>
+                    <div class="bg-purple-50 border-l-4 border-purple-500 p-4 rounded-r-lg relative z-10">
+                        <strong class="text-purple-800 text-xs uppercase tracking-wider block mb-1">Apport professionnel</strong>
+                        <p class="text-purple-900 text-sm">
+                            Développe la <strong>créativité</strong>, l'<strong>attention aux détails</strong> et l'<strong>esprit d'analyse</strong>. Comprendre la vision d'un réalisateur permet d'appréhender des projets complexes avec une perspective globale.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cv" class="bg-white rounded-2xl shadow-sm border border-slate-200/80 p-6 md:p-10">
+            <div class="flex items-center gap-3 border-b-2 border-blue-500 pb-3 mb-8">
+                <span class="text-2xl">📄</span>
+                <h2 class="text-2xl md:text-3xl font-bold text-slate-900">Curriculum Vitae</h2>
+            </div>
+
+            <div class="flex flex-col items-center text-center space-y-6">
+                <div class="max-w-2xl space-y-3">
+                    <p class="text-slate-700 text-sm md:text-base leading-relaxed">
+                        Retrouvez ci-dessous l'aperçu complet de mon curriculum vitae. Vous pouvez également le télécharger directement au format PDF.</p>
+                    <div>
+                        <a href="CV_Antoine_Degenne-Galloo.pdf" class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-xl transition shadow-md hover:shadow-lg active:scale-95 text-sm md:text-base" download="">
+                            <span>📥</span>
+                            <span>Télécharger mon CV (PDF)</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="w-full max-w-3xl bg-slate-100 p-2 sm:p-4 rounded-2xl border border-slate-200 shadow-inner">
+                    <div class="rounded-xl overflow-hidden shadow-2xl border border-slate-300 bg-white">
+                        <img src="CV_Antoine_Degenne-Galloo.jpeg" alt="Curriculum Vitae - Antoine Degenne-Galloo" class="w-full h-auto object-contain mx-auto" onerror="this.onerror=null; this.src='https://placehold.co/900x1270/ffffff/1e293b?text=Curriculum+Vitae';">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="bg-white rounded-2xl shadow-sm border border-slate-200/80 p-6 md:p-10">
+            <div class="flex items-center gap-3 border-b-2 border-blue-500 pb-3 mb-8">
+                <span class="text-2xl">📬</span>
+                <h2 class="text-2xl md:text-3xl font-bold text-slate-900">Me Contacter</h2>
+            </div>
+            <div class="grid sm:grid-cols-3 gap-6 text-center">
+                <div class="p-6 bg-slate-50 border border-slate-200 rounded-xl flex flex-col items-center justify-center">
+                    <span class="text-3xl mb-3">📍</span>
+                    <strong class="text-slate-900 mb-1">Localisation</strong>
+                    <span class="text-slate-600 text-sm">11 Chemin des Herses<br>45530 Sury-aux-Bois</span>
+                </div>
+                <div class="p-6 bg-slate-50 border border-slate-200 rounded-xl flex flex-col items-center justify-center">
+                    <span class="text-3xl mb-3">✉️</span>
+                    <strong class="text-slate-900 mb-1">Coordonnées</strong>
+                    <a href="mailto:degennegallooantoine@gmail.com" class="text-blue-600 hover:underline text-xs md:text-sm font-medium break-all">degennegallooantoine@gmail.com</a>
+                    <span class="text-slate-600 text-sm mt-1">06 41 25 81 69</span>
+                </div>
+                <div class="p-6 bg-slate-50 border border-slate-200 rounded-xl flex flex-col items-center justify-center">
+                    <span class="text-3xl mb-3">💼</span>
+                    <strong class="text-slate-900 mb-1">Réseaux Professionnels</strong>
+                    <a href="https://www.linkedin.com/in/antoine-degenne-galloo-05a32b39a" target="_blank" class="text-blue-600 hover:underline text-sm font-semibold mt-1">
+                        Antoine DEGENNE-GALLOO | LinkedIn ↗
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-slate-900 text-slate-400 py-8 text-center text-xs border-t border-slate-800">
+        <p>© Portfolio Technique — Antoine Degenne-Galloo</p>
+    </footer>
+
+    <div id="project-modal" class="fixed inset-0 z-[100] items-center justify-center p-4 hidden">
+        <div class="absolute inset-0 bg-slate-900/60 backdrop-blur-sm transition-opacity" onclick="closeProjectModal()"></div>
+        
+        <div class="bg-white rounded-2xl shadow-2xl max-w-2xl w-full relative z-10 p-6 md:p-8 transform transition-all duration-300 max-h-[90vh] overflow-y-auto scale-95 opacity-0" id="modal-content">
+            <button onclick="closeProjectModal()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-800 bg-slate-100 hover:bg-slate-200 rounded-full w-8 h-8 flex items-center justify-center transition-colors">
+                ✕
+            </button>
+            
+            <h3 id="modal-title" class="text-2xl font-bold text-slate-900 mb-6 pr-8">Balançoire "Œuf Surprise"</h3>
+            
+            <img id="modal-image" src="https://placehold.co/600x400/dbeafe/1e3a8a?text=Photo+Balancoire" class="w-full h-64 sm:h-80 object-cover rounded-xl mb-6 border border-slate-200 shadow-sm" alt="Illustration projet">
+            
+            <div id="modal-details" class="text-slate-700">
+                <div class="space-y-4 mb-6 text-sm">
+                    <div>
+                        <h4 class="font-bold text-slate-800 text-base mb-1">1. Contexte</h4>
+                        <p class="text-slate-700 leading-relaxed">Projet de réalisation pratique mené au sein de l'atelier de fabrication mécanique de l'IUT dans le cadre du BUT GMP.</p>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-slate-800 text-base mb-1">2. Objectifs</h4>
+                        <p class="text-slate-700 leading-relaxed">Créer un ensemble mécanique complet et fonctionnel, la balançoire.</p>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-slate-800 text-base mb-1">3. Cahier des charges</h4>
+                        <ul class="list-disc list-inside text-slate-700 leading-relaxed space-y-1">
+                            <li>Respecter rigoureusement les deadlines et rendus demandés par nos encadrants.</li>
+                            <li>Utiliser un maximum de procédé de fabrication différents.</li>
+                            <li>Le systeme se devait d'etre démontable et rangeable dans "L'Oeuf Surprise".</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-slate-800 text-base mb-1">4. Bilan et difficultés rencontrées</h4>
+                        <p class="text-slate-700 leading-relaxed">La difficulté majeure a résidé dans la précision des réglages machines et les ajustements finaux pour assurer la fluidité du mécanisme.</p>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-slate-800 text-base mb-1">5. Analyse et réflexion</h4>
+                        <p class="text-slate-700 leading-relaxed">J'ai pu mesurer l'importance de la rigueur et de la métrologie dans le processus de fabrication. Cela donne un vrai sens à la conception CAO.</p>
+                    </div>
+                </div>
+                <div class="flex flex-wrap gap-2 text-sm text-slate-600">
+                    <span class="bg-slate-100 px-3 py-1.5 rounded-lg border border-slate-200 font-medium">Tournage</span>
+                    <span class="bg-slate-100 px-3 py-1.5 rounded-lg border border-slate-200 font-medium">Fraisage</span>
+                    <span class="bg-slate-100 px-3 py-1.5 rounded-lg border border-slate-200 font-medium">Métrologie</span>
+                </div>
+            </div>
+            
+            <div class="mt-8 flex justify-end">
+                <button onclick="closeProjectModal()" class="px-5 py-2 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors shadow-sm">
+                    Fermer
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.addEventListener('load', function() {
+            window.scrollTo(0, 0);
+        });
+
+        let currentActiveCard = null;
+
+        function openProjectModal(element) {
+            currentActiveCard = element;
+            
+            const modal = document.getElementById('project-modal');
+            const content = document.getElementById('modal-content');
+            const title = document.getElementById('modal-title');
+            const modalImage = document.getElementById('modal-image');
+            const detailsContainer = document.getElementById('modal-details');
+            
+            const projectTitle = element.querySelector('h3').innerText;
+            const imgEl = element.querySelector('img');
+            let projectImageSrc = '';
+            let projectImageError = '';
+            if (imgEl) {
+                projectImageSrc = imgEl.getAttribute('data-modal-img') || imgEl.getAttribute('src');
+                projectImageError = imgEl.getAttribute('data-modal-fallback') || imgEl.getAttribute('onerror');
+            }
+            const projectDetails = element.querySelector('.project-details').innerHTML;
+            
+            title.textContent = projectTitle;
+            
+            if(element.classList.contains('is-split-card')) {
+                modalImage.classList.add('hidden');
+                content.classList.remove('max-w-2xl');
+                content.classList.add('max-w-5xl');
+            } else {
+                modalImage.classList.remove('hidden');
+                modalImage.setAttribute('onerror', projectImageError);
+                modalImage.src = projectImageSrc;
+                content.classList.remove('max-w-5xl');
+                content.classList.add('max-w-2xl');
+            }
+            
+            detailsContainer.innerHTML = projectDetails;
+            
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            
+            setTimeout(() => {
+                content.classList.remove('scale-95', 'opacity-0');
+                content.classList.add('scale-100', 'opacity-100');
+            }, 10);
+            
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeProjectModal() {
+            const modal = document.getElementById('project-modal');
+            const content = document.getElementById('modal-content');
+            
+            if (currentActiveCard) {
+                currentActiveCard.querySelector('h3').innerText = document.getElementById('modal-title').innerText;
+                currentActiveCard.querySelector('.project-details').innerHTML = document.getElementById('modal-details').innerHTML;
+            }
+            
+            content.classList.remove('scale-100', 'opacity-100');
+            content.classList.add('scale-95', 'opacity-0');
+            
+            setTimeout(() => {
+                modal.classList.add('hidden');
+                modal.classList.remove('flex');
+                document.body.style.overflow = 'auto'; 
+            }, 300);
+        }
+    </script>
+
+</body>
+</html>
